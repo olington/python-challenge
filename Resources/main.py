@@ -63,6 +63,6 @@ output = (f"FINANCIAL ANALYSIS\n"
 print(output)    
 
 #Export as txt.file
-with open(output_file, "w") as txt_file:
+with open("output_file.txt", "w") as txt_file:
     txt_file.write(output)
     
